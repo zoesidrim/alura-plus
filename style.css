@@ -40,7 +40,7 @@ body {
 .container__conteudo {
     margin: 0 6em;
 
-}
+} 
 
 .container__botao {
     background-color: var(--azul-botao);
@@ -162,3 +162,60 @@ body {
     color: var(--cor-efeito);
 }
 
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: block;
+        height: 85vh;
+    }
+
+    .principal {
+        background-image: none;
+    }
+
+    .container__imagem {
+        width: 50vw;
+    }
+
+    .container__conteudo {
+        margin: 2em 2em;
+    }
+
+    .secundario {
+        margin: 0em 2em;
+        text-align: center;
+    }
+
+    .secundario__imagem {
+        width: 50vw;
+    }
+
+    .descricao__paragrafo {
+        margin-top: 1em;
+    }
+
+    .imagem_telas {
+        margin: 1em 0 0 0;
+    }
+
+    .container__dispositivos {
+        margin: 1em 1em;
+    }
+
+    .dispositivos__lista {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container__footer {
+        margin: 1em 1em;
+    }
+    
+    .footer__lista {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+}
