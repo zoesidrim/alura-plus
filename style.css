@@ -28,6 +28,7 @@ body {
     background-size: contain;
     align-items: center;
     text-align: center;
+    margin-top: 3em;
 
 }
 
@@ -69,6 +70,7 @@ body {
 .container__titulo {
     font-size: 1.75rem;
     font-weight: 700;
+    margin-bottom: 1em;
 }
 
 .container__imagem {
@@ -82,6 +84,7 @@ body {
 
 .secundario__imagem {
     width: 80%;
+    margin-bottom: 1em;
 }
 
 .descricao__titulo {
@@ -93,11 +96,13 @@ body {
 
 .descricao__paragrafo {
     color: var(--cinza-secundario);
+    margin-bottom: 1em;
 }
 
 .secundario_botao {
     display:inline-block;
     margin: 1em 0 1em 0;
+    padding: 1rem 4em;
 }
 
 .imagem_telas {
